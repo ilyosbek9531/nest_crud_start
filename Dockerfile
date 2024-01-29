@@ -17,9 +17,10 @@ RUN npm install -g node-gyp
 
 # Copy package.json and package-lock.json to the container
 COPY package*.json ./
+COPY prisma ./prisma/ 
 
 # Install application dependencies
-RUN npm install
+RUN npm install --only=prod
 
 # Copy the rest of your application code to the container
 COPY . .
