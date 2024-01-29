@@ -6,9 +6,17 @@ import { CategoriesModule } from './categories/categories.module';
 import { ProductsModule } from './products/products.module';
 import { RatingsModule } from './ratings/ratings.module';
 import { PurchasesModule } from './purchases/purchases.module';
+import { PrismaModule } from 'nestjs-prisma';
 
 @Module({
-  imports: [UsersModule, CategoriesModule, ProductsModule, RatingsModule, PurchasesModule],
+  imports: [
+    UsersModule,
+    CategoriesModule,
+    ProductsModule,
+    RatingsModule,
+    PurchasesModule,
+    PrismaModule.forRoot(),
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
