@@ -21,6 +21,7 @@ COPY package*.json ./
 # Install application dependencies
 RUN npm install
 
+COPY ./prisma prisma
 # Copy the rest of your application code to the container
 COPY . .
 
@@ -31,6 +32,7 @@ ENV PRISMA_ENGINES_CHECKSUM_IGNORE_MISSING=1
 # This line generates the Prisma client code based on the schema defined in the application.
 RUN npx prisma generate
 
+COPY --chown=node:node --from=builder /app/prisma /app/prisma
 # Expose the port that your application will run on (Nest.js default is 3000)
 EXPOSE 3000
 
