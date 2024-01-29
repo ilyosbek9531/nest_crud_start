@@ -17,7 +17,7 @@
 
 "@angular-devkit/core@13.3.11", "@angular-devkit/core@^13.3.0":
   version "13.3.11"
-  resolved "https://registry.npmjs.org/@angular-devkit/core/-/core-13.3.11.tgz"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-13.3.11.tgz#875b02b973a60869781447cc2723f660752f12a1"
   integrity sha512-rfqoLMRYhlz0wzKlHx7FfyIyQq8dKTsmbCoIVU1cEIH0gyTMVY7PbVzwRRcO6xp5waY+0hA+0Brriujpuhkm4w==
   dependencies:
     ajv "8.9.0"
@@ -53,7 +53,7 @@
 
 "@angular-devkit/schematics@13.3.11", "@angular-devkit/schematics@^13.3.0":
   version "13.3.11"
-  resolved "https://registry.npmjs.org/@angular-devkit/schematics/-/schematics-13.3.11.tgz"
+  resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-13.3.11.tgz#9bda91a7784be5ab453e4812d7f750aa62af826e"
   integrity sha512-ben+EGXpCrClnIVAAnEQmhQdKmnnqFhMp5BqMxgOslSYBAmCutLA6rBu5vsc8kZcGian1wt+lueF7G1Uk5cGBg==
   dependencies:
     "@angular-devkit/core" "13.3.11"
@@ -880,7 +880,7 @@
 
 "@schematics/angular@~13.3.0":
   version "13.3.11"
-  resolved "https://registry.npmjs.org/@schematics/angular/-/angular-13.3.11.tgz"
+  resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-13.3.11.tgz#7e3264c0da1ab16967eed85ef79c5445735c6160"
   integrity sha512-imKBnKYEse0SBVELZO/753nkpt3eEgpjrYkB+AFWF9YfO/4RGnYXDHoH8CFkzxPH9QQCgNrmsVFNiYGS+P/S1A==
   dependencies:
     "@angular-devkit/core" "13.3.11"
@@ -1431,7 +1431,7 @@ ajv@8.12.0, ajv@^8.0.0:
 
 ajv@8.9.0:
   version "8.9.0"
-  resolved "https://registry.npmjs.org/ajv/-/ajv-8.9.0.tgz"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.9.0.tgz#738019146638824dea25edcf299dcba1b0e7eb18"
   integrity sha512-qOKJyNj/h+OWx7s5DePL6Zu1KeM9jPZhwBqs+7DzP6bGOvqzVCSf0xueYmVuaC/oQ/VtS2zLMLHdQFbkka+XDQ==
   dependencies:
     fast-deep-equal "^3.1.1"
@@ -3519,7 +3519,7 @@ json5@^2.2.2, json5@^2.2.3:
 
 jsonc-parser@3.0.0:
   version "3.0.0"
-  resolved "https://registry.npmjs.org/jsonc-parser/-/jsonc-parser-3.0.0.tgz"
+  resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-3.0.0.tgz#abdd785701c7e7eaca8a9ec8cf070ca51a745a22"
   integrity sha512-fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==
 
 jsonc-parser@3.2.0:
@@ -3634,7 +3634,7 @@ lru-cache@^6.0.0:
 
 magic-string@0.25.7:
   version "0.25.7"
-  resolved "https://registry.npmjs.org/magic-string/-/magic-string-0.25.7.tgz"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.25.7.tgz#3f497d6fd34c669c6798dcb821f2ef31f5445051"
   integrity sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA==
   dependencies:
     sourcemap-codec "^1.4.4"
@@ -3830,7 +3830,7 @@ neo-async@^2.6.2:
 
 nestjs-prisma@^0.22.0:
   version "0.22.0"
-  resolved "https://registry.npmjs.org/nestjs-prisma/-/nestjs-prisma-0.22.0.tgz"
+  resolved "https://registry.yarnpkg.com/nestjs-prisma/-/nestjs-prisma-0.22.0.tgz#322b7163eeac203101f0ed01d3131774874652eb"
   integrity sha512-vseCukdWYijWxQBIdtC1XVSwMNZLZMjJen0ostsaRWaQ7yF8ny2Xruu0mA1d/t16uPOMUVUkSZro6JikOEkcuw==
   dependencies:
     "@angular-devkit/core" "^13.3.0"
@@ -4324,7 +4324,7 @@ run-parallel@^1.1.9:
 
 rxjs@6.6.7:
   version "6.6.7"
-  resolved "https://registry.npmjs.org/rxjs/-/rxjs-6.6.7.tgz"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.7.tgz#90ac018acabf491bf65044235d5863c4dab804c9"
   integrity sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==
   dependencies:
     tslib "^1.9.0"
@@ -4492,7 +4492,7 @@ source-map-support@0.5.21, source-map-support@^0.5.21, source-map-support@~0.5.2
 
 source-map@0.7.3:
   version "0.7.3"
-  resolved "https://registry.npmjs.org/source-map/-/source-map-0.7.3.tgz"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
   integrity sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==
 
 source-map@0.7.4, source-map@^0.7.4:
@@ -4507,7 +4507,7 @@ source-map@^0.6.0, source-map@^0.6.1:
 
 sourcemap-codec@^1.4.4:
   version "1.4.8"
-  resolved "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
+  resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
   integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
 
 sprintf-js@~1.0.2:
@@ -4839,7 +4839,7 @@ tslib@2.6.2, tslib@^2.1.0, tslib@^2.6.2:
 
 tslib@^1.9.0:
   version "1.14.1"
-  resolved "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
 type-check@^0.4.0, type-check@~0.4.0:
@@ -5036,6 +5036,7 @@ which@^2.0.1:
     isexe "^2.0.0"
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
