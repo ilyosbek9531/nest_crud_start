@@ -1,7 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { Rating } from '@prisma/client';
 
-export class RatingEntity implements Rating {
+export class RatingEntity {
   @ApiProperty()
   id: string;
 
